@@ -3,11 +3,8 @@ var factorial = function(number) {
     return 1;
   };
 
-  var result = 1;
   if (number >= 1) {
-    for (var i = 1; i <= number; i++) {
-      result *= i;
-    };
-    return result;
+    console.log(number);
+    return number * factorial(number -1);
   };
 };

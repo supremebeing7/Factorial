@@ -3,7 +3,8 @@ describe('factorial', function() {
     factorial(0).should.equal(1);
   });
 
-  it('computes factorial of any number', function() {
+  it('computes factorial of a number using recursion', function() {
     factorial(10).should.equal(3628800);
   });
 });
+
