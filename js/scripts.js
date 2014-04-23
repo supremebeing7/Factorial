@@ -21,20 +21,3 @@ $(document).ready(function() {
     event.preventDefault();
   });
 });
-
-
-
-
-
-// $(document).ready(function() {
-//   $("").submit(function(event) {
-//     var phrase = $('input#phrase').val();
-
-//     var newPhrase = titleCase(phrase);
-
-//     $(".finalResult").text(newPhrase);
-//     $("#finalResult").show();
-//     this.reset();
-//     event.preventDefault();
-//   });
-// });
